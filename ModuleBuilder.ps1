@@ -1,9 +1,9 @@
 # We cloned our project to C:\sc\PSStackExchange
 
 $ModuleName = 'testshared2'
-$Path = "D:\code"
+$Path = "$($pwd).path"
 $Author = 'Dan'
-$Description = 'Shared Services Module'
+$Description = 'Shared Management Module'
 
 # Create the module and private function directories
 mkdir "$Path\$ModuleName"
