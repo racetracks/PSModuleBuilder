@@ -2,7 +2,7 @@
 
 $ModuleName = 'testshared2'
 $Path = "$($pwd.path)"
-$Author = 'Dan Costello'
+$Author = 'Dan'
 $Description = 'Shared Services Module'
 
 # Create the module and private function directories
