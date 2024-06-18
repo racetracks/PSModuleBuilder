@@ -1,10 +1,12 @@
 
 
 $ModuleName = 'testshared2'
-$Path = "$($pwd.path)"
 $Author = 'Example'
 $Company = 'Example'
 $Description = 'Shared Services Module'
+$ModuleVersion = ''
+$ModuleFunctionsToExport = @('Get-Hello','Get-Goodbye')
+
 
 
 mkdir "..\$ModuleName"
